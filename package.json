@@ -1,0 +1,35 @@
+{
+  "name": "bootstrap-sass",
+  "version": "1.0.0",
+  "description": "Learning Bootstrap With SASS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdsharifremon/Bootstrap.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Sharif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdsharifremon/Bootstrap/issues"
+  },
+  "homepage": "https://github.com/mdsharifremon/Bootstrap#readme",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  }
+}

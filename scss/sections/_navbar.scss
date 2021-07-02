@@ -1,0 +1,32 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu{
+    padding-top:0;
+    padding-bottom:0;
+    @include gradient;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 100;
+    box-shadow: 1px 1px 20px 1px rgb(0 0 0 / 30%);
+
+    li{
+        padding: 0 0.7rem;
+
+        a{
+            color:$white !important;
+            text-transform:capitalize;
+            font-weight:600;
+            font-size:16px;
+        }
+    }
+    .navbar-toggler{
+        border:none;
+
+        &:focus{
+            box-shadow: none;
+        }
+    }
+}
